@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Configuración sensible
+config/config.json
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Scripts personales (Python)
+subir-cambios.py
+
+# Base de datos local (si usas SQLite)
+*.sqlite
+*.sqlite3
+*.db
